@@ -14,3 +14,6 @@
 <h3>Project Name : selfieapp</h3>
 &nbsp;&nbsp;Capture photo of client, save image to in-memory database, query from database and show data on log page.: This project is using NodeJS, Express Framework, 
 p5.js & NeDB.<br />
+
+<h3>Project Name : weatherapi</h3>
+&nbsp;&nbsp;Fetch data from OpenWeather API using Express routing and log response to console.<br />
