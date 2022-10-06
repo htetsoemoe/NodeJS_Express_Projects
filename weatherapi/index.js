@@ -53,7 +53,7 @@ app.get('/weather/:latlon', async (request, response) => {
     const lon = latlon[1];
     console.log(lat, lon);
 
-    const api_url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=e85262e9aa7d8253036e58fd1e68fa31`;
+    const api_url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${id}`;
     const fetch_response = await fetch(api_url);// using node-fetch
     const json = await fetch_response.json();
     response.json(json);
