@@ -17,3 +17,6 @@ p5.js & NeDB.<br />
 
 <h3>Project Name : weatherapi</h3>
 &nbsp;&nbsp;Fetch data from [OpenWeather API](https://openweathermap.org/) using Express routing and log response to console.<br />
+
+<h3>Project Name : weatherapi_final</h3>
+&nbsp;&nbsp;Fetch data from [OpenWeather API](https://openweathermap.org/) using Express routing and Leaflet.js.<br />
